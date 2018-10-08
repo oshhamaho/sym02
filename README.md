@@ -43,3 +43,6 @@ php bin/console make:migration
 
 #### Real migrations
 php bin/console doctrine:migrations:migrate
+
+#### Save DB in config folder 
+datas/base01.sql
