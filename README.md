@@ -6,7 +6,7 @@
 #### Update dependencies
 1) composer update
 
-#### run server
+#### Run server
 1) php bin/console server:run
 
 #### Modify .env
@@ -21,4 +21,17 @@ DATABASE_URL=mysql://root:@127.0.0.1:3306/sym_02
 #### Create DB (Database name is in .env)
 php bin/console doctrine:database:create
 
-
+#### Create an entity, like a table in MySQL
+php bin/console make:entity
+> Article
+> titre
+> ? (for view all type)
+> string
+> 150
+> no
+> description
+> text
+> no
+> temps
+> datetime
+> yes
