@@ -46,3 +46,10 @@ php bin/console doctrine:migrations:migrate
 
 #### Save DB in config folder 
 datas/base01.sql
+
+#### For SQL query in console
+php bin/console doctrine:query:sql "SELECT * FROM article"
+
+#### Create a controller
+php bin/console make:controller
+AccueilController
