@@ -35,3 +35,7 @@ php bin/console make:entity
 > temps
 > datetime
 > yes
+> auteur
+> string
+> no
+#### Prepare SQL in a migration files in MySQL
