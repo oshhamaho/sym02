@@ -16,4 +16,9 @@ DATABASE_URL=mysql://root:@127.0.0.1:3306/sym_02
 
 #### Install security-checker for composer
 1) composer require sensiolabs/security-checker --dev
+2) test it with: composer update
+
+#### Create DB (Database name is in .env)
+php bin/console doctrine:database:create
+
 
